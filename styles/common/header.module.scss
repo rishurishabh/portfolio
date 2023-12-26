@@ -1,0 +1,31 @@
+@import '../settings/_settings';
+
+.appbar {
+    background-color: transparent  !important;
+    box-shadow: none !important;
+    top: 30px !important;
+    .container {
+        border-radius: 50px !important;
+        max-height: 3.25rem !important;
+        border-radius: 50px;
+        background: $white-color !important;
+        box-shadow:  20px 20px 60px #d9d9d9, -20px -20px 60px $white-color;
+        
+        .toolbar {
+            max-height: 3.25rem !important;
+            min-height: auto !important;
+            .link {
+                text-decoration: none !important;
+                .menu-item {
+                    color: $primary-dark5-color !important;
+                    margin: 8px 0px !important;
+                    font-weight: bold !important;
+                    font-size: medium !important;
+                    text-transform: none !important;
+                  }
+            }
+           
+        }
+       
+    }
+}

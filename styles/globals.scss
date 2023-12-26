@@ -1,0 +1,55 @@
+@import '../styles/settings/_settings';
+
+* {
+  box-sizing: border-box;
+  position: relative;
+  //   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: Lato, sans-serif !important;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  flex: 1;
+}
+
+.Header_menuitem {
+  text-transform: capitalize !important;
+  margin-right: 20px !important;
+  font-weight: 600 !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  position: relative !important;
+}
+
+.content-wrapper {
+  min-height: calc(100vh - 70px) !important;
+  /* margin-top: 64px !important; */
+}
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: $primary5-color #ffffff !important;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 0px !important;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff !important;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: $primary5-color !important;
+    border-radius: 15px !important;
+    border: 4px solid #ffffff !important;
+  }
